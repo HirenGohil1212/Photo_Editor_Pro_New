@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "909069287887",
+    "project_id": "photo-editor-pro-31af6",
+    "storage_bucket": "photo-editor-pro-31af6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909069287887:android:62fe06ec052d5d188312ba",
+        "android_client_info": {
+          "package_name": "com.example.photoeditorpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909069287887-5r5sighc34n7dsbf8h8e82f1hhse2br7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.photoeditorpro",
+            "certificate_hash": "2006b15071a495d3a898636756aa472d25822855"
+          }
+        },
+        {
+          "client_id": "909069287887-06o41e8nbbhlmtfir976ndp06ajrjobo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0Yx3DpRpqHEcOrkQrwwTQMnQVcFfn1FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909069287887-06o41e8nbbhlmtfir976ndp06ajrjobo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

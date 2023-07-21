@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:title="Search"
+        android:id="@+id/search_opt"
+        android:icon="@drawable/outline_search_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:title="Notification"
+        android:id="@+id/notification_opt"
+        android:icon="@drawable/outline_doorbell_24"
+        app:showAsAction="ifRoom"
+        />
+
+
+</menu>

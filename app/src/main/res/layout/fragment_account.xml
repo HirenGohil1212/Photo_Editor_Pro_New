@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/acbg">
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:visibility="gone"/>
+
+
+       <ImageView
+           android:id="@+id/logo"
+           android:layout_width="51dp"
+           android:layout_height="51dp"
+           android:src="@drawable/splash_icon"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="76dp"/>
+
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/button"
+           android:layout_width="320dp"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:text="CREATE AN ACCOUNT"
+           android:fontFamily="@font/poppins"
+           app:cornerRadius="5dp"
+           android:layout_below="@id/logo"
+           android:layout_marginTop="300dp"
+           android:backgroundTint="@color/skyblue"/>
+
+       <LinearLayout
+           android:id="@+id/logo_combo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/button"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal"
+           android:gravity="center"
+
+           >
+
+           <ImageView
+               android:id="@+id/google_logo"
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/google_logo"
+               android:layout_marginRight="10dp"/>
+           <ImageView
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/facebook_logo"/>
+
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/textview"
+           android:layout_below="@id/logo_combo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="BY REGISTERING YOU AGREE TO OUR TERMS OF USE AND
+PRIVACY POLICY"
+           android:textColor="@color/white"
+           android:fontFamily="@font/poppins"
+           android:gravity="center"
+           android:textSize="12sp"/>
+       <TextView
+           android:id="@+id/textview_signin"
+           android:layout_below="@id/textview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text = "Already Have Account ? Signin"
+           android:textColor="@color/white"
+           android:fontFamily="@font/poppins"
+           android:gravity="center"
+           android:textSize="12sp"/>
+
+
+
+   </RelativeLayout>
+
+</FrameLayout>
